@@ -13,12 +13,12 @@ var connection = mysql.createConnection({
     connection = mysql.createConnection(process.env.JAWSDB_URL);
   } else {
     connection = mysql.createConnection({
-      host: 'localhost',
-      user: 'root',
+      host: "localhost",
+      user: "root",
      // password: 'hacktheplanet',
     //  database: 'todoagain_db'
-      password: 'sb012073',
-      database: 'burger_db'
+      password: "sb012073",
+      database: "burger_db"
     });
   };
 // Make connection.
