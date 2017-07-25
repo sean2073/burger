@@ -3,9 +3,9 @@ var mysql = require("mysql");
 
 var connection = mysql.createConnection({
   port: 3306,
-  host: "gzp0u91edhmxszwf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-  user: "zuhd7kvfoealvmmh",
-  password: "fg0t4vrjcf012s7m",
+  host: "localhost",
+  user: "root",
+  password: "sb012073",
   database: "burger_db"
 });
 
@@ -13,11 +13,11 @@ var connection = mysql.createConnection({
     connection = mysql.createConnection(process.env.JAWSDB_URL);
   } else {
     connection = mysql.createConnection({
-      host: "gzp0u91edhmxszwf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-      user: "zuhd7kvfoealvmmh",
+      host: "localhost",
+      user: "root",
      // password: 'hacktheplanet',
     //  database: 'todoagain_db'
-      password: "fg0t4vrjcf012s7m",
+      password: "sb012073",
       database: "burger_db"
     });
   };
