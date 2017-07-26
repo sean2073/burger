@@ -10,10 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/sean2073/burger.git"
   },
-  "keywords": [ 
+  "keywords": [
     "example",
     "heroku"
-    ],
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
