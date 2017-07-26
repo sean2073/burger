@@ -2,7 +2,7 @@
   "name": "package.json",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/sean2073/burger.git"
   },
+  "keywords": [ 
+    "example",
+    "heroku"
+    ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -22,5 +26,8 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.8",
     "mysql": "^2.13.0"
+  },
+  "engines": {
+    "node": "8.0.0"
   }
 }
